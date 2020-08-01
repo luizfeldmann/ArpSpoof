@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ArpSpoof" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/ArpSpoof" prefix_auto="1" extension_auto="1" />
+				<Option object_output="/bin" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="5 192.168.99.1 aa:bb:cc:dd:ee:ff 192.168.0.138 90:CD:B6:A3:A3:9F" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="npcap-sdk-1.05/Include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lwpcap" />
+			<Add directory="npcap-sdk-1.05/Lib/x64" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="protocol.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

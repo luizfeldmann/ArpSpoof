@@ -1,0 +1,88 @@
+# depslib dependency file v1.0
+1596321865 source:d:\developer\arpspoof\main.c
+	<stdio.h>
+	<stdlib.h>
+	"protocol.h"
+	<conio.h>
+	<pcap.h>
+
+1596313910 d:\developer\arpspoof\protocol.h
+	<stdint.h>
+
+1254889204 d:\developer\arpspoof\wpdpack\include\pcap.h
+	<pcap/pcap.h>
+
+1277469864 d:\developer\arpspoof\wpdpack\include\pcap\pcap.h
+	<pcap-stdinc.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/time.h>
+	<pcap/bpf.h>
+	<stdio.h>
+	<Win32-Extensions.h>
+	<remote-ext.h>
+
+1254889204 d:\developer\arpspoof\wpdpack\include\pcap-stdinc.h
+	<winsock2.h>
+	<fcntl.h>
+	"bittypes.h"
+	<time.h>
+	<io.h>
+	"IP6_misc.h"
+	<stdint.h>
+
+1254889204 d:\developer\arpspoof\wpdpack\include\bittypes.h
+
+1254889198 d:\developer\arpspoof\wpdpack\include\ip6_misc.h
+	<winsock2.h>
+	<ws2tcpip.h>
+
+1254889204 d:\developer\arpspoof\wpdpack\include\pcap\bpf.h
+
+1155154618 d:\developer\arpspoof\wpdpack\include\win32-extensions.h
+
+1190903536 d:\developer\arpspoof\wpdpack\include\remote-ext.h
+
+1555689398 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap.h
+	<pcap/pcap.h>
+
+1570650472 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\pcap.h
+	<pcap/funcattrs.h>
+	<pcap/pcap-inttypes.h>
+	<winsock2.h>
+	<io.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/types.h>
+	<sys/time.h>
+	<pcap/socket.h>
+	<pcap/bpf.h>
+	<stdio.h>
+
+1570024882 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\funcattrs.h
+	<pcap/compiler-tests.h>
+	<sal.h>
+
+1556223600 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\compiler-tests.h
+
+1570024882 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\pcap-inttypes.h
+	<inttypes.h>
+	<inttypes.h>
+
+1556223600 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\socket.h
+	<windef.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netdb.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+
+1570024882 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\bpf.h
+	<pcap/funcattrs.h>
+	<pcap/dlt.h>
+
+1570024882 d:\developer\arpspoof\npcap-sdk-1.05\include\pcap\dlt.h
+
